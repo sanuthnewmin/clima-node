@@ -1,0 +1,21 @@
+# ESP32 Weather Station - Python Dependencies
+
+# Flask web framework for the dashboard
+Flask==3.0.0
+
+# Firebase Admin SDK for database operations
+firebase-admin==6.5.0
+
+# MQTT client library for Python
+paho-mqtt==2.1.0
+
+# Supervisor for process management in Docker
+supervisor==4.2.5
+
+# Additional dependencies for better compatibility
+requests==2.32.5
+cryptography==46.0.3
+
+# Optional: For better production deployment
+# gunicorn==21.2.0  # WSGI server
+# python-dotenv==1.0.0  # Environment variables
